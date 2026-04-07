@@ -148,7 +148,6 @@ footer {
 	display: block;	
 	padding: 1em;
 	text-decoration: none;
-	color: var(--light);
 	background-color: var(--medium);
 	color: var(--dark);
 	margin-top: 0;
