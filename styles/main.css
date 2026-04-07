@@ -134,6 +134,7 @@ footer {
 	& li{
 		flex-basis: 20%;
 		text-align: center;
+		color:var(--light);
 	}
 }
 :root{
