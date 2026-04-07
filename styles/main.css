@@ -2,6 +2,9 @@
 :root {
 	--accent-color: #800000;  /* could also be coded #800 */
 	--gradient-color: #f6bb73;
+	--dark: #931420;
+	--medium: #f2972e;
+	--light: #ffebc6;
 }
 
 /* reset */
@@ -137,11 +140,6 @@ footer {
 		color:var(--light);
 	}
 }
-:root{
-	--dark: #931420;
-	--medium: #f2972e;
-	--light: #ffebc6;
-}
 
 .navbar{
 	background-color: var(--accent-color);
@@ -149,7 +147,6 @@ footer {
 	display: block;	
 	padding: 1em;
 	text-decoration: none;
-	
 	margin-top: 0;
 	margin-bottom: 2px;
 	margin-left: 1px;
@@ -169,6 +166,7 @@ footer {
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
+		color: var(--light);
 	}
 }
 
