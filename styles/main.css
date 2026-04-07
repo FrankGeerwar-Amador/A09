@@ -156,7 +156,6 @@ nav li:has(.submenu){
 
 	&:hover > .submenu{
 		display: block;
-		background-color: var(--medium);
 	}
 }
 
