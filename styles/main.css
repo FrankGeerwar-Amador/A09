@@ -144,13 +144,14 @@ footer {
 .navbar{
 	background-color: var(--accent-color);
 	& a{
-	display: block;	
+	display: hidden;	
 	padding: 1em;
 	text-decoration: none;
 	margin-top: 0;
 	margin-bottom: 2px;
 	margin-left: 1px;
 	margin-right: 1px;
+	color:var(--light);
 	}
 
 	& :hover{
