@@ -144,7 +144,7 @@ footer {
 .navbar{
 	background-color: var(--accent-color);
 	& a{
-	display: hidden;	
+	display: block;	
 	padding: 1em;
 	text-decoration: none;
 	margin-top: 0;
