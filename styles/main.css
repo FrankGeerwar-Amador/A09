@@ -130,7 +130,9 @@ footer {
 	font-size: 125%;
 }
 
-.menu{
+
+.navbar{
+	& .menu{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -140,8 +142,6 @@ footer {
 		color:var(--light);
 	}
 }
-
-.navbar{
 	background-color: var(--accent-color);
 	& a{
 	display: block;	
