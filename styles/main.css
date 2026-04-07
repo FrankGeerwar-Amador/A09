@@ -134,20 +134,28 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	li:first-child a{
+	& li:first-child a{
 		margin-left: 0;
 	}
-	li:last-child a{
+	& li:last-child a{
 		margin-right: 0;
 	}
 	& li{
 		flex-basis: 20%;
 		text-align: center;
 		color:var(--light);
-	} &.submenu{
-		& li a{
-			margin: 0, 2px, 2px;
-		}
+	} 
+}
+
+nav li:has(.submenu){
+	position: relative;
+
+	small{
+		margin-left: 5px;
+	}
+
+	&:hover > .submenu{
+		display: block;
 	}
 }
 
@@ -164,9 +172,18 @@ footer {
 	color:var(--light);
 	}
 
-	& :hover{
-		background-color: var(--medium);
-		color: var(--dark);
+	& .submenu{
+		background-color: var(--accent-color);
+		color: var(--light);
+		display: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		color: var(--light);
+
+		& > li a {
+			margin: 0 2px 2px;
+		}
 	}
 
 	& :focus{
