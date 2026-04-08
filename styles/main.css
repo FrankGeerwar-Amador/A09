@@ -148,7 +148,7 @@ footer {
 }
 
 nav li:has(.submenu){
-	position: relative;
+	position: absolute;
 
 	small{
 		margin-left: 5px;
@@ -176,7 +176,7 @@ nav li:has(.submenu){
 		background-color: var(--accent-color);
 		color: var(--light);
 		display: none;
-		position: relative;
+		position: absolute;
 		left: 0;
 		right: 0;
 		color: var(--light);
