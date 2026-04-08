@@ -186,7 +186,7 @@ nav li:has(.submenu){
 		}
 	}
 
-	& a:focus a:hover{
+	& :focus, :hover {
 		background-color: var(--medium);
 		color: var(--dark);
 	}
