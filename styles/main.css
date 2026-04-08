@@ -148,7 +148,7 @@ footer {
 }
 
 nav li:has(.submenu){
-	position: absolute;
+	position: relative;
 
 	small{
 		margin-left: 5px;
